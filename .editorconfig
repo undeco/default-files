@@ -1,0 +1,58 @@
+#EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# 4 space indentation
+[*.py]
+indent_style = space
+indent_size = 4
+
+# 2 tabs indentation
+[*.php]
+indent_style = tab
+indent_size = 2
+
+# 2 tabs indentation
+[*.php]
+indent_style = tab
+indent_size = 2
+
+# 4 space indentation
+[*.twig]
+indent_style = space
+indent_size = 4
+
+# 4 space indentation
+[*.yml]
+indent_style = space
+indent_size = 4
+
+# 2 space indentation
+[*.js]
+indent_style = space
+indent_size = 2
+
+# 4 space indentation
+[*.json]
+indent_style = space
+indent_size = 4
+
+# 4 space indentation
+[*.bowerrc]
+indent_style = space
+indent_size = 4
+
+# Default charset
+charset = utf-8
+
+# Remove unecessary whitespaces
+trim_trailing_whitespace = true
+
+# Finish editing with a lasting new line
+insert_final_newline = true
